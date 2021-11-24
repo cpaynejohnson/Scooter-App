@@ -7,17 +7,16 @@ class Rider {
         this.phoneNumber = phoneNumber
         this.startTime = startTime;
         this.endTime = endTime;  
-     //   this.timeRented = timeRented
-        
+           
     }
 
-    totalAmount(){
-        return ((this.endTime - this.startTime) * 0.15) + 1
+    totalPayment(){
+        return (this.endTime - this.startTime) * 0.15 + 1
     }
 
 }   
 let r1 = new Rider ("Me", "topsecret", "375894", "me@nomail.com", "214-777-9311", 1730, 1811)
-console.log(r1.totalAmount())
+console.log(r1.totalPayment())
 
 
 module.exports = Rider
