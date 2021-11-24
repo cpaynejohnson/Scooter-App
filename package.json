@@ -1,0 +1,25 @@
+{
+  "name": "scooter-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpaynejohnson/Scooter-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpaynejohnson/Scooter-App/issues"
+  },
+  "homepage": "https://github.com/cpaynejohnson/Scooter-App#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
