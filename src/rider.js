@@ -11,7 +11,7 @@ class Rider {
     }
 
     totalPayment(){
-        return (this.endTime - this.startTime) * 0.15 + 1
+        return Math.round(((this.endTime - this.startTime) * 0.15 + 1) * 100) / 100
     }
 
 }   
